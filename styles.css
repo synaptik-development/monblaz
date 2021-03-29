@@ -1,15 +1,11 @@
-@font-face {
-    font-family: 'open_sansregular';
-    src: url('OpenSans-Regular-webfont.eot');
-    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('OpenSans-Regular-webfont.woff2') format('woff2'),
-         url('OpenSans-Regular-webfont.woff') format('woff'),
-         url('OpenSans-Regular-webfont.ttf') format('truetype'),
-         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+body
+{
+    font-family: 'Open Sans', sans-serif;
 }
-
+#container
+{
+    width: 1170px;
+}
 p
 {
     font-size: 0.8em;
@@ -21,164 +17,6 @@ h1
     font-weight: lighter;
 }
 
-body
-{
-    background-image: url(images/Layer.png);
-}
-
-header h1
-{
-    font-size: 3em;
-}
-
-header
-{
-    display: flex;
-}
-
-.decor
-{
-    width: 100%;
-}
-
-.text-head
-{
-    position:absolute;
-    left: 18%;
-    width: 22%;
-    top: 440px;
-    padding: 0%;
-    color: #fff;
-}
-
-.logo
-{
-    position: absolute;
-    width: 5%;
-    top: 50px;
-    left: 18%;
-    padding: 0%;
-}
-
-.iphone
-{
-    position: absolute;
-    width: 30%;
-    right: 20%;
-    top: 395px;
-}
-
-section
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 1061px;
-}
-
-.part_left
-{
-    width: 32%;
-    margin-right: 26px;
-    padding-left: 0%;
-}
-
-.part_right
-{
-    width: 32%;
-    padding-left: 0%;
-    marging left: 0px;
-}
-
-.box_grid
-{
-    color: #fff;
-    position: absolute;
-    top: 1494px;
-    justify-content: flex-end;
-    flex-direction: row;
-    width: 84%;
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 0px;
-    padding-right: 0px;
-}
-
-.box_grid h1
-{
-    font-size: 1.6em;
-}
-
-.box_grid p
-{
-    font-size: 0.7em;
-}
-
-.box1
-{
-    background-color: #f5989d;
-    width: 21%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.box2
-{
-    background-color: #615f7d;
-    width: 21%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-}
-
-.box3
-{
-    background-image: url(images/box3.png);
-    width: 21%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-}
-
-.box4
-{
-    background-color: #bd8cbf;
-    width: 21%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-}
-
-.box5
-{
-    background-image: url(images/box5.png);
-    width: 42%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-}
-
-.box6
-{
-    background-color: #82ca9c;
-    width: 21%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-}
-
-.box7
-{
-    background-image: url(images/box7.png);
-    width: 21%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-}
 
 
 
