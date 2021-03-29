@@ -1,0 +1,45 @@
+body
+{
+    background-image: url(images/Layer.png);
+}
+
+header
+{
+    display: flex;
+}
+
+.decor
+{
+    width: 100%;
+}
+
+.text-head
+{
+    position:absolute;
+    left: 18%;
+    width: 22%;
+    top: 440px;
+    padding: 0%;
+    color: #fff;
+}
+
+.logo
+{
+    position: absolute;
+    width: 5%;
+    top: 50px;
+    left: 18%;
+    padding: 0%;
+}
+
+.iphone
+{
+    position: absolute;
+    width: 30%;
+    right: 20%;
+    top: 395px;
+    
+}
+
+
+
