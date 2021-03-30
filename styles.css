@@ -1,24 +1,220 @@
 body
 {
     font-family: 'Open Sans', sans-serif;
+    word-wrap: break-word;
 }
 #container
 {
     width: 1170px;
+    background-image: url(images/Layer.png);
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
 p
 {
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 
 h1
 {
-    font-size: 1.7em;
+    font-size: 2em;
     font-weight: lighter;
 }
 
+h2
+{
+    font-size: 1.3em;
+    font-weight: lighter;
+}
 
+h3
+{
+    font-size: 1em;
+    font-weight: lighter;
+}
 
+.haut_de_page
+{
+    background-image: url(images/decor.png);
+    width: 100%;
+    height: 605px;
+    display: flex;
+    position: relative;
+}
+.logo
+{
+    width: 5%;
+    position: absolute;
+    top: 40px;
+    left: 18%;
+}
 
+.text-head
+{
+    width: 23%;
+    color: #ffff;
+    position: absolute;
+    top: 250px;
+    left: 20%;
+}
 
+.iphone
+{
+    width: 30%;
+    position: absolute;
+    right: 20%;
+    top: 250px;
+}
+
+.section1
+{
+    width: 66%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.part_left
+{
+    margin-right: 10px;
+}
+
+.part_right
+{
+    margin-left: 10px;
+}
+
+.section2
+{
+    width: 100%;
+    height: 360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #ffff;
+    margin: 30px 0 30px auto;
+}
+
+.box1
+{
+    width: 25%;
+    margin: auto;
+    background-color: #f5989d;
+    height: 180px;
+    margin: 0;
+}
+
+.box2
+{
+   width: 25%;
+    margin: auto;
+    background-color: #615f7d;
+    height: 180px;    
+    margin: 0;
+}
+
+.box3
+{
+    width: 25%;
+    margin: auto;
+    background-image: url(images/box3.png);
+    height: 180px;   
+    margin: 0;
+}
+
+.box4
+{
+    width: 25%;
+    margin: auto;
+    background-color: #bd8cbf;
+    height: 180px;
+    margin: 0;
+}
+
+.box5
+{
+    width: 50%;
+    margin: auto;
+    background-image: url(images/box5.png);
+    height: 180px;    
+    margin: 0;
+}
+.box6
+{
+    width: 25%;
+    margin: auto;
+    background-color: #82ca9c;
+    height: 180px; 
+    margin: 0;
+}
+
+.box7
+{
+    width: 25%;
+    margin: auto;
+    background-image: url(images/box7.png);
+    height: 180px;    
+    margin: 0;
+}
+
+.section3
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5px 0 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.li1
+{
+    width: 25%;
+    margin: auto;
+    padding: 0 5px 0 5px;
+}
+
+.li2
+{
+    width: 25%;
+    margin: auto;
+    padding: 0 5px 0 5px;
+}
+
+.li3
+{
+    width: 25%;
+    margin: auto;
+    padding: 0 5px 0 5px;
+}
+
+.li4
+{
+    width: 25%;
+    margin: auto;
+    padding: 0 5px 0 5px;
+}
+
+.section4
+{
+    width: 100%;
+    margin: auto;
+    background-image: url(images/cars.png);
+ 
+}
+
+.text_cars
+{
+    width: 30%;
+    color: #ffff;
+    position: absolute;
+    
+}
 
